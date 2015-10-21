@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA14BD01BD79339000C7550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA14BCF1BD79339000C7550 /* main.m */; };
+		FBA14BD31BD79339000C7550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA14BD21BD79339000C7550 /* AppDelegate.m */; };
+		FBA14BD61BD7933A000C7550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA14BD51BD7933A000C7550 /* ViewController.m */; };
+		FBA14BD91BD7933A000C7550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BD71BD7933A000C7550 /* Main.storyboard */; };
+		FBA14BDB1BD7933A000C7550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BDA1BD7933A000C7550 /* Assets.xcassets */; };
+		FBA14BDE1BD7933A000C7550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BDC1BD7933A000C7550 /* LaunchScreen.storyboard */; };
+		FBA14BEE1BD793D1000C7550 /* checkbox_selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BE61BD793D1000C7550 /* checkbox_selected.jpg */; settings = {ASSET_TAGS = (); }; };
+		FBA14BEF1BD793D1000C7550 /* checkbox_unselected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BE71BD793D1000C7550 /* checkbox_unselected.jpg */; settings = {ASSET_TAGS = (); }; };
+		FBA14BF01BD793D1000C7550 /* KVSystemAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA14BE91BD793D1000C7550 /* KVSystemAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		FBA14BF11BD793D1000C7550 /* SGCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA14BEB1BD793D1000C7550 /* SGCheckBox.m */; settings = {ASSET_TAGS = (); }; };
+		FBA14BF21BD793D1000C7550 /* TSAlertViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BEC1BD793D1000C7550 /* TSAlertViewBackground.png */; settings = {ASSET_TAGS = (); }; };
+		FBA14BF31BD793D1000C7550 /* TSAlertViewButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA14BED1BD793D1000C7550 /* TSAlertViewButtonBackground.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBA14BCB1BD79339000C7550 /* KVSystemAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVSystemAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA14BCF1BD79339000C7550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBA14BD11BD79339000C7550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBA14BD21BD79339000C7550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBA14BD41BD79339000C7550 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBA14BD51BD7933A000C7550 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBA14BD81BD7933A000C7550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA14BDA1BD7933A000C7550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA14BDD1BD7933A000C7550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA14BDF1BD7933A000C7550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA14BE61BD793D1000C7550 /* checkbox_selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkbox_selected.jpg; sourceTree = "<group>"; };
+		FBA14BE71BD793D1000C7550 /* checkbox_unselected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkbox_unselected.jpg; sourceTree = "<group>"; };
+		FBA14BE81BD793D1000C7550 /* KVSystemAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSystemAlertView.h; sourceTree = "<group>"; };
+		FBA14BE91BD793D1000C7550 /* KVSystemAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVSystemAlertView.m; sourceTree = "<group>"; };
+		FBA14BEA1BD793D1000C7550 /* SGCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGCheckBox.h; sourceTree = "<group>"; };
+		FBA14BEB1BD793D1000C7550 /* SGCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGCheckBox.m; sourceTree = "<group>"; };
+		FBA14BEC1BD793D1000C7550 /* TSAlertViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground.png; sourceTree = "<group>"; };
+		FBA14BED1BD793D1000C7550 /* TSAlertViewButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA14BC81BD79339000C7550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA14BC21BD79339000C7550 = {
+			isa = PBXGroup;
+			children = (
+				FBA14BCD1BD79339000C7550 /* KVSystemAlertView */,
+				FBA14BCC1BD79339000C7550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA14BCC1BD79339000C7550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA14BCB1BD79339000C7550 /* KVSystemAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA14BCD1BD79339000C7550 /* KVSystemAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FBA14BE51BD793D1000C7550 /* View */,
+				FBA14BD11BD79339000C7550 /* AppDelegate.h */,
+				FBA14BD21BD79339000C7550 /* AppDelegate.m */,
+				FBA14BD41BD79339000C7550 /* ViewController.h */,
+				FBA14BD51BD7933A000C7550 /* ViewController.m */,
+				FBA14BD71BD7933A000C7550 /* Main.storyboard */,
+				FBA14BDA1BD7933A000C7550 /* Assets.xcassets */,
+				FBA14BDC1BD7933A000C7550 /* LaunchScreen.storyboard */,
+				FBA14BDF1BD7933A000C7550 /* Info.plist */,
+				FBA14BCE1BD79339000C7550 /* Supporting Files */,
+			);
+			path = KVSystemAlertView;
+			sourceTree = "<group>";
+		};
+		FBA14BCE1BD79339000C7550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBA14BCF1BD79339000C7550 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBA14BE51BD793D1000C7550 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBA14BE61BD793D1000C7550 /* checkbox_selected.jpg */,
+				FBA14BE71BD793D1000C7550 /* checkbox_unselected.jpg */,
+				FBA14BE81BD793D1000C7550 /* KVSystemAlertView.h */,
+				FBA14BE91BD793D1000C7550 /* KVSystemAlertView.m */,
+				FBA14BEA1BD793D1000C7550 /* SGCheckBox.h */,
+				FBA14BEB1BD793D1000C7550 /* SGCheckBox.m */,
+				FBA14BEC1BD793D1000C7550 /* TSAlertViewBackground.png */,
+				FBA14BED1BD793D1000C7550 /* TSAlertViewButtonBackground.png */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA14BCA1BD79339000C7550 /* KVSystemAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA14BE21BD7933A000C7550 /* Build configuration list for PBXNativeTarget "KVSystemAlertView" */;
+			buildPhases = (
+				FBA14BC71BD79339000C7550 /* Sources */,
+				FBA14BC81BD79339000C7550 /* Frameworks */,
+				FBA14BC91BD79339000C7550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVSystemAlertView;
+			productName = KVSystemAlertView;
+			productReference = FBA14BCB1BD79339000C7550 /* KVSystemAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA14BC31BD79339000C7550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "马龙";
+				TargetAttributes = {
+					FBA14BCA1BD79339000C7550 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = FBA14BC61BD79339000C7550 /* Build configuration list for PBXProject "KVSystemAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA14BC21BD79339000C7550;
+			productRefGroup = FBA14BCC1BD79339000C7550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA14BCA1BD79339000C7550 /* KVSystemAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA14BC91BD79339000C7550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA14BDE1BD7933A000C7550 /* LaunchScreen.storyboard in Resources */,
+				FBA14BDB1BD7933A000C7550 /* Assets.xcassets in Resources */,
+				FBA14BF21BD793D1000C7550 /* TSAlertViewBackground.png in Resources */,
+				FBA14BD91BD7933A000C7550 /* Main.storyboard in Resources */,
+				FBA14BF31BD793D1000C7550 /* TSAlertViewButtonBackground.png in Resources */,
+				FBA14BEF1BD793D1000C7550 /* checkbox_unselected.jpg in Resources */,
+				FBA14BEE1BD793D1000C7550 /* checkbox_selected.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA14BC71BD79339000C7550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA14BD61BD7933A000C7550 /* ViewController.m in Sources */,
+				FBA14BD31BD79339000C7550 /* AppDelegate.m in Sources */,
+				FBA14BF11BD793D1000C7550 /* SGCheckBox.m in Sources */,
+				FBA14BD01BD79339000C7550 /* main.m in Sources */,
+				FBA14BF01BD793D1000C7550 /* KVSystemAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBA14BD71BD7933A000C7550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA14BD81BD7933A000C7550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA14BDC1BD7933A000C7550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA14BDD1BD7933A000C7550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBA14BE01BD7933A000C7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA14BE11BD7933A000C7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA14BE31BD7933A000C7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVSystemAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.KVSystemAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBA14BE41BD7933A000C7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVSystemAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.KVSystemAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA14BC61BD79339000C7550 /* Build configuration list for PBXProject "KVSystemAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA14BE01BD7933A000C7550 /* Debug */,
+				FBA14BE11BD7933A000C7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA14BE21BD7933A000C7550 /* Build configuration list for PBXNativeTarget "KVSystemAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA14BE31BD7933A000C7550 /* Debug */,
+				FBA14BE41BD7933A000C7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA14BC31BD79339000C7550 /* Project object */;
+}
